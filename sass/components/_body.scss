@@ -1,0 +1,56 @@
+
+a {
+    text-decoration: none;
+}
+body {
+    font-family: var(--roboto-font);
+    color: var(--text-color);
+}
+h2{
+    margin: 0;
+}
+p {
+    color: var(--third-color);
+    font-size: 14px;
+    line-height: 24px;
+    vertical-align: top;
+    letter-spacing: 0.03em;
+    margin-top: 10px;
+} 
+ul {
+    list-style: none;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+ }
+ .flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ .icon{
+ &:focus{
+    border: 1px solid var(--brand-color);
+    fill: var(--brand-color);
+}
+ }
+.tittle-2 {
+    color: var(--text-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    vertical-align: top;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+ .section{
+    padding-top: 47px;
+    padding-bottom: 47px;
+}
+#team-color {
+    background-color: var(--color-team);
+}

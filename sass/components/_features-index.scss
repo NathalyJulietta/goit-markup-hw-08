@@ -1,0 +1,27 @@
+.features{
+    align-items: center;
+    margin-right: 35px;
+        &:first-child{
+        margin-left: 0;
+        }
+        &:last-child{
+        margin-right: 0;
+        }
+    &__icon{
+    border-radius: 4px;
+    background: var(--color-team);
+    width: 270px;
+    height: 120px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 100px;
+    padding-left: 100px;
+    }
+    &__subtittle{
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    }
+}

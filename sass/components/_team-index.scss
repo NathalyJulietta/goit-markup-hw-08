@@ -1,0 +1,61 @@
+.team{
+    width: 270px;
+    height: 428px;
+    background: var(--second-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+    &__img{
+        margin-top: 50px;
+        margin-left: 37px;
+        &:first-child{
+        margin-left: 0;
+        }
+        &:last-child{
+        margin-right: 0;
+        }
+    }
+
+    &__name {
+        color: var(--text-color);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        text-align: center;
+        vertical-align: top;
+        letter-spacing: 0.03em;
+    }
+
+    &__position {
+        text-align: center;
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 4px;
+        margin-bottom: 20px;
+        vertical-align: top;
+        letter-spacing: 0.03em;
+    }
+
+    .icon-socialmedia{
+        display: inline-flex;
+        justify-content: center;
+        background-color: var(--second-color);
+        height: 44px;
+        width: 44px;
+        padding: 12px;
+        fill: var(--client);
+     
+        &:hover,
+        &:focus{
+        height: 44px;
+        width: 44px;
+        border-radius: 50%;
+        background-color: var(--primary-color);
+        fill: var(--second-color);
+        }
+    }
+    .instagram{
+        margin-left: 32px;
+    }
+    
+}
